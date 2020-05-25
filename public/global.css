@@ -1,0 +1,26 @@
+@import url('reset.css'); /* Using a url */
+
+@font-face {
+  font-family: 'Wotfard';
+  src: url('/fonts/wotfard-medium-webfont.woff2') format('woff2')
+    url('/fonts/wotfard-regular-webfont.woff2') format('woff2')
+    url('/fonts/wotfard-semibold-webfont.woff2') format('woff2');
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(210, 30%, 8%, 1);
+}
+
+body {
+  color: #333;
+  font-family: 'Wotfard', -apple-system, sans-serif;
+}
