@@ -6,6 +6,7 @@
   import Spinner from "./components/Spinner.svelte";
   import RandomQuote from "./components/RandomQuote.svelte";
   import Quotes from "./components/Quotes.svelte";
+  import Footer from "./components/Footer.svelte";
   let quotes = [];
   let randomQuote = "";
   let quotesLoading = true;
@@ -41,6 +42,11 @@
     margin: 0 auto;
     max-width: 1100px;
   }
+  @media (max-width: 767px) {
+    main {
+      padding: 0 1rem;
+    }
+  }
 </style>
 
 <main>
@@ -50,6 +56,7 @@
     <Header />
     <RandomQuote {randomQuote} {getRandomQuote} />
     <Quotes {quotes} />
+    <Footer />
   {/if}
 
 </main>

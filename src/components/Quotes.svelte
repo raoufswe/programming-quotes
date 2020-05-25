@@ -20,7 +20,7 @@
     font-size: 1.5rem;
     font-weight: 600;
     color: #fff;
-    padding: 1rem 0;
+    padding: 2rem 0 1rem;
     display: flex;
     align-items: center;
   }

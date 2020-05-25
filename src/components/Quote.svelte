@@ -31,6 +31,12 @@
     width: 16px;
     height: 16px;
   }
+
+  @media (max-width: 767px) {
+    .quote-container {
+      padding: 32px 16px;
+    }
+  }
 </style>
 
 <div class="quote-container">
